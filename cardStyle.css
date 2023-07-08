@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 15px 20px #4343fa80;
+    position: relative;
+}
+ 
+.img{
+    
+    
+    position: relative;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    border: 3px solid #1a1aff;
+    padding: 4px;
+    box-shadow: 0 0 10px rgb(110, 110, 245);
+    
+}
+img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    
+    
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.data #name{
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    font-family: 'Baloo 2', cursive;
+}
+.data #work{
+    font-size: 16px;
+    font-weight: 300;
+    opacity: .8;
+    font-family: 'Baloo 2', cursive;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+
+}
+.social-media #link {
+    text-decoration: none;
+    background-color: #1a1aff;
+    margin: 0 10px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.Card .btn{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+
+}
+.btn .bttn{
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #1a1aff;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+    
+}
+.btn .bttn:hover{
+    background-color: rgba(65, 65, 219, 0.664);
+}
+.Card .analytics{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    /* gap: 30px; */
+}
+.analytics .data{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    padding: 0 20px;
+    color: rgba(0, 0, 0, 0.733);
+    border-right: 2px solid rgba(0, 0, 0, 0.151);
+    font-family: 'Baloo 2', cursive;
+}
+.data:last-child{
+    border-right: none;
+}
